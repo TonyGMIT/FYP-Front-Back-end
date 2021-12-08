@@ -1,6 +1,6 @@
 import classes from './MainNavigation.module.css';
 
-function MainNavigation() {
+function Header() {
 
   return (
     <header className={classes.header}>
@@ -9,4 +9,4 @@ function MainNavigation() {
   );
 }
 
-export default MainNavigation;
+export default Header;
