@@ -1,7 +1,7 @@
 import React from 'react'
 import ActivityChart from '../components/ActivityChart'
 
-const ChartPage = () => {
+function ChartPage(){
     return (
         <div>
           <ActivityChart/>

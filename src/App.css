@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
@@ -91,3 +92,40 @@ body {
 #Position{
   left: 50px;
 } 
+
+.footer {
+  padding-top: 45px;
+  height: 75px; 
+  background-color: rgb(94, 94, 94);
+  width: 100%;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  text-align: center;
+ }
+
+.introBox{
+  width: 80%;
+  height: 1000px;
+  position: relative;
+  margin: 6% auto;
+  padding: 50px;
+  background: rgb(255, 255, 255);
+}
+
+ .intro{
+  text-decoration-line: underline;
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+ }
+
+ .info{
+  text-decoration-line: none;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+ }
+ .centreGif{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+ }

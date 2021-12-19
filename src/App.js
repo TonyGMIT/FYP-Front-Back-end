@@ -1,5 +1,6 @@
 import { Route, Switch } from "react-router-dom";
-import HomePage from "./Pages/HomePage";
+import Home from "./Pages/HomePage";
+import LoginPage from "./Pages/LoginPage";
 import RegPage from "./Pages/RegPage";
 import ChartPage from "./Pages/ChartPage";
 import MainNavigation from "./Navigation/MainNavigation";
@@ -11,8 +12,11 @@ function App() {
     <div>
       <MainNavigation />
       <Switch>
-        <Route path="/Log-In" exact>
-          <HomePage/>
+      <Route path="/" exact>
+          <Home/>
+        </Route>
+        <Route path="/Login" exact>
+          <LoginPage/>
         </Route>
         <Route path="/Register" exact>
           <RegPage/>

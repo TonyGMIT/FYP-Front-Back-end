@@ -1,14 +1,9 @@
 import React from "react";
 
-class Footer extends React.Component {
-  render() {
+function Footer() {
     return (
-      <div>
-        <div>&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Smart Tabs -GMIT - FYP 2021 - 2022</div>
-        <div>&emsp;</div>
-      </div>
+        <div className="footer">Smart Tabs - GMIT - FYP - 2021 - 2022</div>
     );
-  }
 }
 
 export default Footer;
